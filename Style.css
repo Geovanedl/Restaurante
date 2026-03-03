@@ -149,7 +149,7 @@ footer .footer-nav a:hover {
 }
 #sobre h2 {
     text-align: center;     
-    margin-bottom: 20px;    
+    margin-bottom: 30px;    
     color: linear-gradient(90deg, #c0392b, #e67e22);         
 }
 #contato p {
@@ -161,4 +161,48 @@ footer .footer-nav a:hover {
 #contato p a {
     color: #000000 !important;
     text-decoration: none;
+}
+
+#Sobre,
+#Contato {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#Sobre h2,
+#Contato h2 {
+    text-align: center;
+}
+
+#Sobre p,
+#Contato p {
+    text-align: justify;
+}
+
+#Sobre,
+#Contato {
+    max-width: 800px;     
+    margin: 100px auto 60px auto; 
+    text-align: justify;    
+}
+
+#Sobre h2,
+#Contato h2 {
+    text-align: center;
+    margin-top: 0;         
+    margin-bottom: 20px;   
+
+}
+
+#Sobre {
+    max-width: 800px;
+    margin: 60px auto 60px auto; 
+    text-align: justify;
+}
+
+#Contato {
+    max-width: 800px;
+    margin: 60px auto 60px auto;
+    text-align: justify;
 }
